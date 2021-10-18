@@ -5,7 +5,7 @@
 [![Latest Unstable Version](https://poser.pugx.org/agungsugiarto/codeigniter4-eloquent/v/unstable)](https://packagist.org/packages/agungsugiarto/codeigniter4-eloquent)
 [![License](https://poser.pugx.org/agungsugiarto/codeigniter4-eloquent/license)](https://packagist.org/packages/agungsugiarto/codeigniter4-eloquent)
 
-Google Cloud Storage filesystem driver for Laravel.
+Codeigniter Database package.
 
 This started as a fork from [agungsugiarto/codeigniter4-eloquent](https://github.com/agungsugiarto/codeigniter4-eloquent). Changes include:
 
