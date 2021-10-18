@@ -1,9 +1,9 @@
 # The Illuminate Database package for CodeIgniter 4
 
-[![Latest Stable Version](https://poser.pugx.org/agungsugiarto/codeigniter4-eloquent/v)](https://packagist.org/packages/agungsugiarto/codeigniter4-eloquent)
-[![Total Downloads](https://poser.pugx.org/agungsugiarto/codeigniter4-eloquent/downloads)](https://packagist.org/packages/agungsugiarto/codeigniter4-eloquent)
-[![Latest Unstable Version](https://poser.pugx.org/agungsugiarto/codeigniter4-eloquent/v/unstable)](https://packagist.org/packages/agungsugiarto/codeigniter4-eloquent)
-[![License](https://poser.pugx.org/agungsugiarto/codeigniter4-eloquent/license)](https://packagist.org/packages/agungsugiarto/codeigniter4-eloquent)
+[![Latest Stable Version](https://poser.pugx.org/nabcellent/codeigniter4-eloquent/v)](https://packagist.org/packages/nabcellent/codeigniter4-eloquent)
+[![Total Downloads](https://poser.pugx.org/nabcellent/codeigniter4-eloquent/downloads)](https://packagist.org/packages/nabcellent/codeigniter4-eloquent)
+[![Latest Unstable Version](https://poser.pugx.org/nabcellent/codeigniter4-eloquent/v/unstable)](https://packagist.org/packages/nabcellent/codeigniter4-eloquent)
+[![License](https://poser.pugx.org/nabcellent/codeigniter4-eloquent/license)](https://packagist.org/packages/nabcellent/codeigniter4-eloquent)
 
 Codeigniter Database package.
 
@@ -86,9 +86,9 @@ class Home extends BaseController
 ```
 
 ## More info usefull link docs laravel
-- [Database: Getting Started](https://laravel.com/docs/7.x/database)
+- [Database: Getting Started](https://laravel.com/docs/8.x/database)
 
-- [Eloquent: Getting Started](https://laravel.com/docs/7.x/eloquent)
+- [Eloquent: Getting Started](https://laravel.com/docs/8.x/eloquent)
 
 ## License
 
