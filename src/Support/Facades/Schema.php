@@ -2,20 +2,20 @@
 
 namespace Nabz\Support\Facades;
 
-use Illuminate\Database\Schema\Builder;
 use Illuminate\Support\Facades\Facade;
+use Nabz\Database\Schema\CI4Builder;
 use Nabz\Models\DB;
 
 /**
- * @method static Builder create(string $table, \Closure $callback)
- * @method static Builder createDatabase(string $name)
- * @method static Builder disableForeignKeyConstraints()
- * @method static Builder drop(string $table)
- * @method static Builder dropDatabaseIfExists(string $name)
- * @method static Builder dropIfExists(string $table)
- * @method static Builder enableForeignKeyConstraints()
- * @method static Builder rename(string $from, string $to)
- * @method static Builder table(string $table, \Closure $callback)
+ * @method static CI4Builder create(string $table, \Closure $callback)
+ * @method static CI4Builder createDatabase(string $name)
+ * @method static CI4Builder disableForeignKeyConstraints()
+ * @method static CI4Builder drop(string $table)
+ * @method static CI4Builder dropDatabaseIfExists(string $name)
+ * @method static CI4Builder dropIfExists(string $table)
+ * @method static CI4Builder enableForeignKeyConstraints()
+ * @method static CI4Builder rename(string $from, string $to)
+ * @method static CI4Builder table(string $table, \Closure $callback)
  * @method static bool hasColumn(string $table, string $column)
  * @method static bool hasColumns(string $table, array $columns)
  * @method static bool dropColumns(string $table, array $columns)
@@ -24,24 +24,24 @@ use Nabz\Models\DB;
  * @method static void registerCustomDoctrineType(string $class, string $name, string $type)
  * @method static array getColumnListing(string $table)
  *
- * @see \Illuminate\Database\Schema\Builder
+ * @see \Nabz\Database\Schema\CI4Builder
  */
 class Schema extends Facade {
     /**
      * Get a schema builder instance for a connection.
      *
-     * @return Builder
+     * @return CI4Builder
      */
-    public static function connection(): Builder {
-        return new Builder(DB::connection());
+    public static function connection(): CI4Builder {
+        return new CI4Builder(DB::connection());
     }
 
     /**
      * Get a schema builder instance for the default connection.
      *
-     * @return Builder
+     * @return CI4Builder
      */
-    protected static function getFacadeAccessor(): Builder {
-        return new Builder(DB::connection());
+    protected static function getFacadeAccessor(): CI4Builder {
+        return new CI4Builder(DB::connection());
     }
 }
