@@ -1,10 +1,10 @@
 <?php
 
-namespace Fluent\Models;
+namespace Nabz\Models;
 
 use CodeIgniter\Config\Services;
 use CodeIgniter\HTTP\URI;
-use Fluent\Pagination\ViewBridge;
+use Nabz\Pagination\ViewBridge;
 use Illuminate\Database\Capsule\Manager;
 use Illuminate\Pagination\Paginator;
 

@@ -1,12 +1,12 @@
 <?php
 
-namespace Fluent\Config;
+namespace Nabz\Config;
 
 use CodeIgniter\Config\BaseConfig;
 
 class Eloquent extends BaseConfig
 {
-    public string $defaultView = '\Fluent\Views\default';
+    public string $defaultView = '\Nabz\Views\default';
 
-    public string $simpleDefaultView = '\Fluent\Views\simpleDefault';
+    public string $simpleDefaultView = '\Nabz\Views\simpleDefault';
 }

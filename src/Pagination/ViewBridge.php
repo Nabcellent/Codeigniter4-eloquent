@@ -1,6 +1,6 @@
 <?php
 
-namespace Fluent\Pagination;
+namespace Nabz\Pagination;
 
 use CodeIgniter\Config\Services;
 use CodeIgniter\View\View;

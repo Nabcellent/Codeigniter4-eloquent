@@ -1,6 +1,6 @@
 <?php
 
-namespace Fluent\Commands;
+namespace Nabz\Commands;
 
 use CodeIgniter\CLI\BaseCommand;
 use CodeIgniter\CLI\CLI;
