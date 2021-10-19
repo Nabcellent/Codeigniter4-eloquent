@@ -5,7 +5,7 @@
 [![Latest Unstable Version](https://poser.pugx.org/nabcellent/codeigniter4-eloquent/v/unstable)](https://packagist.org/packages/nabcellent/codeigniter4-eloquent)
 [![License](https://poser.pugx.org/nabcellent/codeigniter4-eloquent/license)](https://packagist.org/packages/nabcellent/codeigniter4-eloquent)
 
-Codeigniter Database packag.
+Codeigniter Database package.
 
 This started as a fork from [agungsugiarto/codeigniter4-eloquent](https://github.com/agungsugiarto/codeigniter4-eloquent). Changes include:
 
