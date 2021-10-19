@@ -28,8 +28,8 @@ publish the config file with following spark command
 php spark eloquent:publish
 ```
 
-## Costuming view pagination
-The default view for pagination available with preset for bootstrap4 and basic html, if you want to costumize
+## Customizing view pagination
+The default view for pagination available with preset for bootstrap4 and basic html, if you want to customize
 just copy from `\vendor\nabcellent\codeigniter4-eloquent\src\Views\Bootstrap4.php` and modify with your style after that put on folder App\Views. Finnaly change your config in `App\Config\Eloquent.php`
 
 ## Setup services eloquent

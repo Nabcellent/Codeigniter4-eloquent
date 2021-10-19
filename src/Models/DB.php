@@ -3,10 +3,9 @@
 namespace Nabz\Models;
 
 use CodeIgniter\Config\Services;
-use CodeIgniter\HTTP\URI;
-use Nabz\Pagination\ViewBridge;
 use Illuminate\Database\Capsule\Manager;
 use Illuminate\Pagination\Paginator;
+use Nabz\Pagination\ViewBridge;
 
 class DB extends Manager
 {
