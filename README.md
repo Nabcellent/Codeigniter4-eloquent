@@ -70,7 +70,7 @@ class Authors extends Model
 namespace App\Controllers;
 
 use App\Models\Authors;
-use Fluent\Models\DB;
+use Nabz\Models\DB;
 
 class Home extends BaseController
 {
