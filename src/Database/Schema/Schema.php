@@ -12,8 +12,5 @@ class Schema extends Builder {
      */
     public function __construct() {
         parent::__construct(DB::connection());
-
-        $this->connection = DB::connection();
-        $this->grammar = $this->connection->getSchemaGrammar();
     }
 }
