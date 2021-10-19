@@ -3,7 +3,9 @@
 namespace Nabz\Models;
 
 use CodeIgniter\Config\Services;
+use Illuminate\Container\Container;
 use Illuminate\Database\Capsule\Manager;
+use Illuminate\Events\Dispatcher;
 use Illuminate\Pagination\Paginator;
 use Nabz\Pagination\ViewBridge;
 
@@ -33,8 +35,8 @@ class DB extends Manager {
             'schema'    => config('Database')->connect()->schema ?? 'public'
         ]);
 
+        $this->setEventDispatcher(new Dispatcher(new Container));
         $this->setAsGlobal();
-
         $this->bootEloquent();
 
         Paginator::$defaultView = config('Eloquent')->defaultView;

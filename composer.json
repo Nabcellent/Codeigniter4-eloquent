@@ -14,7 +14,8 @@
         "php": "^8.0",
         "codeigniter4/framework": "^4",
         "illuminate/database": "^8.64",
-        "illuminate/pagination": "^8.64"
+        "illuminate/pagination": "^8.64",
+        "illuminate/events": "^8.65"
     },
     "autoload": {
         "psr-4": {
