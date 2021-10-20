@@ -33,5 +33,5 @@
     "scripts": {
         "test": "phpunit --colors=always -vvv"
     },
-    "prefer-stable": true
+    "prefer-stable": tru
 }
