@@ -90,6 +90,10 @@ class Home extends BaseController
 
 - [Eloquent: Getting Started](https://laravel.com/docs/8.x/eloquent)
 
+## Security
+
+If you discover any security related issues, please email [nabcellent.dev@gmail.com](mailto:nabcellent.dev@gmail.com) instead of using the issue tracker.
+
 ## License
 
 This package is free software distributed under the terms of the [MIT license](LICENSE.md).
