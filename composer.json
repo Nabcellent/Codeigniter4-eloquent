@@ -1,37 +1,49 @@
 {
-    "name": "nabcellent/codeigniter4-eloquent",
-    "type": "library",
-    "description": "The Illuminate Database package for CodeIgniter 4",
-    "keywords": ["codegniter4", "codeigniter4-eloquent", "database", "orm", "sql"],
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "nabcellent",
-            "email": "nabcellent.dev@gmail.com"
-        }
-    ],
-    "require": {
-        "php": "^7.3|^8.0",
-        "codeigniter4/framework": "^4",
-        "illuminate/database": "^8.64",
-        "illuminate/pagination": "^8.64",
-        "illuminate/events": "^8.65"
-    },
-    "autoload": {
-        "psr-4": {
-            "Nabz\\": "src/"
-        }
-    },
-    "require-dev": {
-        "phpunit/phpunit": "^9.5"
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "Tests\\": "tests/"
-        }
-    },
-    "scripts": {
-        "test": "phpunit --colors=always -vvv"
-    },
-    "prefer-stable": true
+  "name": "nabcellent/codeigniter4-eloquent",
+  "type": "library",
+  "description": "The Illuminate/Eloquent package for CodeIgniter 4.",
+  "keywords": [
+    "codegniter",
+    "codegniter eloquent",
+    "codegniter query builder",
+    "query builder",
+    "codegniter4",
+    "codeigniter4-eloquent",
+    "database",
+    "orm",
+    "eloquent",
+    "sql"
+  ],
+  "license": "MIT",
+  "require": {
+    "php": "^7.3|^8.0",
+    "codeigniter4/framework": "^4",
+    "illuminate/database": "^8.64",
+    "illuminate/pagination": "^8.64",
+    "illuminate/events": "^8.65"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Nabz\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  },
+  "scripts": {
+    "test": "phpunit --colors=always -vvv"
+  },
+  "prefer-stable": true,
+  "authors": [
+    {
+      "name": "Lil Nabz",
+      "email": "nabcellent.dev@gmail.com",
+      "role": "Web Artisan"
+    }
+  ]
 }

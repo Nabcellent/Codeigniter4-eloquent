@@ -17,9 +17,10 @@ This started as a fork from [agungsugiarto/codeigniter4-eloquent](https://github
 ## Installation
 
 Include this package via Composer:
+Add -W to downgrade psr/container package as Illuminate/container needs that version.
 
 ```console
-composer require nabcellent/codeigniter4-eloquent
+composer require nabcellent/codeigniter4-eloquent -W
 ```
 
 ## Publish config
