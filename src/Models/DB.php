@@ -15,11 +15,20 @@ class DB extends Manager {
     public function __construct() {
         parent::__construct();
 
-        $this->driver = match (config('Database')->default['DBDriver']) {
-            'Postgre' => 'pgsql',
-            'SQLite3' => 'sqlite',
-            default => 'mysql',
-        };
+        switch (config('Database')->default['DBDriver']) {
+            case 'MySQLi':
+                $this->driver = 'mysql';
+                break;
+            case 'Postgre':
+                $this->driver = 'pgsql';
+                break;
+            case 'SQLite3':
+                $this->driver = 'sqlite';
+                break;
+            default:
+                $this->driver = 'mysql';
+                break;
+        }
 
         $this->addConnection([
             'driver'    => $this->driver,
