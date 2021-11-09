@@ -9,8 +9,7 @@ Codeigniter Database package.
 
 This started as a fork from [agungsugiarto/codeigniter4-eloquent](https://github.com/agungsugiarto/codeigniter4-eloquent). Changes include:
 
-- Support for PHP 7 and 8.
-- Implemented Schema builder
+- Support for PHP 7.4 and above.
 - Updated illuminate/database to 8
 - Updated illuminate/pagination to 8
 

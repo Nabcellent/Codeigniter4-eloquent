@@ -10,15 +10,12 @@ use Illuminate\Pagination\Paginator;
 use Nabz\Pagination\ViewBridge;
 
 class DB extends Manager {
-    protected string $driver;
+    protected $driver;
 
     public function __construct() {
         parent::__construct();
 
         switch (config('Database')->default['DBDriver']) {
-            case 'MySQLi':
-                $this->driver = 'mysql';
-                break;
             case 'Postgre':
                 $this->driver = 'pgsql';
                 break;
